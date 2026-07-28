@@ -101,7 +101,7 @@ Additional outputs are available in the [`Results`](Results/) folder.
 
 ## How to Run
 
-### Google Colab
+### In Google Colab
 
 1. Open [`L02_Chow_Tobias_ITAI1378.ipynb`](L02_Chow_Tobias_ITAI1378.ipynb).
 2. Select **Open in Colab** or upload the notebook to Google Colab.
@@ -109,7 +109,7 @@ Additional outputs are available in the [`Results`](Results/) folder.
 4. Run all cells from top to bottom.
 5. Use the generated sample image, download the notebook's sample image, or upload your own image when prompted.
 
-### Local Environment
+### On a local environment
 
 ```bash
 git clone https://github.com/TobiasC05/Tobias-C-AI-Portfolio.git
