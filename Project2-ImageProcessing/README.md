@@ -119,21 +119,22 @@ jupyter notebook L02_Chow_Tobias_ITAI1378.ipynb
 ```
 
 ## Contents
+
 ```text
 Project2-ImageProcessing/
-|-- README.md
-|-- L02_Chow_Tobias_ITAI1378.ipynb
-`-- Results/
-    |-- adv processing.png
-    |-- basic images process.png
-    |-- convert grayscale.png
-    |-- image matrix.png
-    |-- image proccess foundation.png
-    |-- lab summary.png
-    |-- neighborhood options.png
-    |-- process pipeline.png
-    |-- rgb channels.png
-    `-- transform.png
+├── README.md
+├── L02_Chow_Tobias_ITAI1378.ipynb
+└── Results/
+    ├── adv processing.png
+    ├── basic images process.png
+    ├── convert grayscale.png
+    ├── image matrix.png
+    ├── image proccess foundation.png
+    ├── lab summary.png
+    ├── neighborhood options.png
+    ├── process pipeline.png
+    ├── rgb channels.png
+    └── transform.png
 ```
 
 ## Author
