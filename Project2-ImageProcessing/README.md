@@ -116,3 +116,25 @@ git clone https://github.com/TobiasC05/Tobias-C-AI-Portfolio.git
 cd Tobias-C-AI-Portfolio/Project2-ImageProcessing
 pip install numpy matplotlib opencv-python-headless pillow requests jupyter
 jupyter notebook L02_Chow_Tobias_ITAI1378.ipynb
+```
+
+## Contents
+Project2-ImageProcessing/
+|-- README.md
+|-- L02_Chow_Tobias_ITAI1378.ipynb
+`-- Results/
+    |-- adv processing.png
+    |-- basic images process.png
+    |-- convert grayscale.png
+    |-- image matrix.png
+    |-- image proccess foundation.png
+    |-- lab summary.png
+    |-- neighborhood options.png
+    |-- process pipeline.png
+    |-- rgb channels.png
+    `-- transform.png
+
+## Author
+Tobias C.
+Computer Vision ITAI 1378
+
