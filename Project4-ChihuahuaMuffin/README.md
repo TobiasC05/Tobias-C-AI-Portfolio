@@ -2,7 +2,7 @@
 
 [Back to the main portfolio](../README.md)
 
-## Project Overview
+## Project overview
 
 This project builds and trains a basic deep-learning neural network to distinguish between images of Chihuahuas and muffins.
 
@@ -10,7 +10,7 @@ The two classes can appear visually similar because Chihuahua faces and muffins 
 
 This project was completed for **ITAI 1378 – Computer Vision** using Python and PyTorch.
 
-## Problem Statement
+## Problem statement
 
 Can a neural network correctly determine whether an image contains a Chihuahua or a muffin?
 
@@ -21,7 +21,7 @@ This is a binary image-classification problem with two output classes:
 
 The model receives an RGB image as input and produces a prediction indicating which of the two classes is more likely.
 
-## Learning Objectives
+## Learning objectives
 
 - Understand the basic structure of a neural network.
 - Prepare image data for deep-learning models.
@@ -61,7 +61,7 @@ https://github.com/mlatsjsu/workshop-chihuahua-vs-muffin/tree/master/data
 
 After downloading it, place the `data` folder inside the project directory unless the notebook already contains a cell that downloads or accesses the data.
 
-## Dataset Handling
+## Dataset handling
 
 The images are loaded using PyTorch's `ImageFolder` utility. The folder names are used automatically as class labels.
 
@@ -77,11 +77,11 @@ The validation dataset remains separate from the training dataset so that the mo
 
 ## Approach
 
-### 1. Import Required Libraries
+### 1. Import required libraries
 
 The notebook imports PyTorch, Torchvision, Pillow, Matplotlib, and other supporting libraries.
 
-### 2. Build the Neural Network
+### 2. Build the neural network
 
 A custom PyTorch neural network is created by extending `torch.nn.Module`.
 
@@ -93,11 +93,11 @@ The model uses:
 - Two output values representing Chihuahua and muffin
 - A probability-based final prediction
 
-### 3. Prepare the Image Data
+### 3. Prepare the image data
 
 All images are resized, converted to tensors, normalized, and loaded into training and validation batches.
 
-### 4. Train the Model
+### 4. Train the model
 
 The model is trained over multiple epochs.
 
@@ -108,13 +108,13 @@ For each training batch, the notebook performs:
 3. Gradient calculation through backpropagation
 4. Weight updates using an optimizer
 
-### 5. Validate the Model
+### 5. Validate the model
 
 After training, the model predicts the classes of images from the validation dataset.
 
 The predicted class is compared with the true class to determine whether each prediction is correct.
 
-### 6. Visualize the Results
+### 6. Visualize the results
 
 The notebook displays each validation image with:
 
@@ -123,7 +123,7 @@ The notebook displays each validation image with:
 - Green text for correct predictions
 - Red text for incorrect predictions
 
-## Model Architecture
+## Model architecture
 
 The project uses a basic fully connected neural network rather than a convolutional neural network.
 
@@ -185,9 +185,9 @@ The single visible error occurred when one muffin image was predicted as a Chihu
 
 Because the validation dataset is small, the result should be interpreted as performance on this specific group of images rather than proof that the model will achieve the same accuracy on all unfamiliar Chihuahua and muffin images.
 
-## Results and Visualizations
+## Results and visualizations
 
-### Validation Predictions
+### Validation predictions
 
 ![Chihuahua and muffin validation predictions](Results/CMresults.png)
 
@@ -199,7 +199,7 @@ Additional project documentation is available here:
 - [Project PDF](Results/L04_TobiasChow_ITAI_1378.pdf)
 - [Saved results](Results/)
 
-## Key Findings
+## Key findings
 
 - A basic neural network can learn to distinguish between Chihuahua and muffin images.
 - Image resizing and normalization help create consistent model inputs.
@@ -218,7 +218,7 @@ Additional project documentation is available here:
 - Additional images and data augmentation would provide a stronger evaluation.
 - A convolutional neural network would be better designed to learn spatial patterns such as edges, shapes, and textures.
 
-## Possible Improvements
+## Possible improvements
 
 Future improvements could include:
 
@@ -235,7 +235,7 @@ Future improvements could include:
 
 The CNN version of this classification problem is explored separately in Project 5.
 
-## Technologies Used
+## Technologies used
 
 - Python
 - Jupyter Notebook
@@ -267,7 +267,7 @@ tqdm
 
 ## How to Run
 
-### Option 1: Google Colab
+### Option 1: On Google Colab
 
 1. Open [`Workshop_1.ipynb`](Workshop_1.ipynb).
 2. Upload or open the notebook in Google Colab.
@@ -284,7 +284,7 @@ data/validation/muffin
 5. Run all notebook cells from top to bottom.
 6. Review the training output and validation predictions.
 
-### Option 2: Run Locally
+### Option 2: Run on a local environment
 
 Clone the portfolio repository:
 
