@@ -119,6 +119,7 @@ jupyter notebook L02_Chow_Tobias_ITAI1378.ipynb
 ```
 
 ## Contents
+```text
 Project2-ImageProcessing/
 |-- README.md
 |-- L02_Chow_Tobias_ITAI1378.ipynb
@@ -133,6 +134,7 @@ Project2-ImageProcessing/
     |-- process pipeline.png
     |-- rgb channels.png
     `-- transform.png
+```
 
 ## Author
 Tobias C.
