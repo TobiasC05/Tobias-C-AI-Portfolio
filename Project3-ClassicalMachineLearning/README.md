@@ -158,6 +158,7 @@ jupyter notebook L03_A_TobiasChow_ITAI_1378.ipynb
 Project3-ClassicalMachineLearning/
 ├── README.md
 ├── L03_A_TobiasChow_ITAI_1378.ipynb
+├── requirements.txt
 └── Results/
     ├── FeatureDimensionComp.png
     ├── HOGResults.png
