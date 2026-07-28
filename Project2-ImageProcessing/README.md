@@ -1,6 +1,6 @@
 # Image Processing: From Pixels to Perception
 
-[Back to the main portfolio](..)
+[Back to the main portfolio](../README.md)
 
 ## Project Overview
 
